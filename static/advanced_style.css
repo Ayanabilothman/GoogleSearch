@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial,sans-serif;
+    height: calc(100vh - 100px);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+}
+
+a {
+    margin: 10px;
+}
+
+.title {
+    color: #d93025;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: #e3e3e3;
+    border: none;
+}
+
+.container{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+ form, .form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header,  .all, .exact, .any, .none{
+    display: flex;
+    flex-direction: row;
+}
+
+.all, .exact, .any, .none, .btn {
+        margin-top: 20px;
+}
+
+.btn {
+    margin-left: 600px;
+}
+
+.btn input{
+    width: 120px;
+    height: 30px;
+    background: #4787ed;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 11px;
+    cursor: pointer;
+
+}
+
+.btn input:hover {
+        border: 1px solid #2f5bb7;
+    }
+
+h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.empty {
+    width: 600px;
+    height: 100%;
+}
+
+.comment {
+    color: #777;
+    font-size: 13px;
+}
+
+label {
+    width: 180px;
+    height: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+form input {
+    width: 520px;
+    height: 20px;
+    padding: 2px 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+}
+
+.form input:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.info {
+    font-size: 11px;
+    padding: 5px;
+    margin-left: 5px;
+}

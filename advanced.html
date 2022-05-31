@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+    </head>
+    <link rel="stylesheet" href="static/advanced_style.css">
+
+    <body>
+        <nav>
+            <a href="index.html">Google Search</a>
+        </nav>
+        <div class="title">
+            Advanced Search
+        </div>
+        <hr>
+        <div class="container">
+            <div class="header">
+                <div class="header-title">
+                    <h3>Find pages with...</h3>
+                </div>
+                <div class="empty"></div>
+                <div class="comment">To do this in the search box.</div>
+            </div>
+            <div class="form">
+                <form action="https://google.com/search">
+                    <div class="all">
+                        <label for="all">all these words:</label>
+                        <input type="text" id="all" name="as_q">
+                        <div class="info">Type the important words: tri-colour rat terrier</div>
+                    </div>
+                    <div class="exact">
+                        <label for="exact">this exact word or phrase:</label>
+                        <input type="text" id="exact" name="as_epq">
+                        <div class="info">Put exact words in quotes: "rat terrier"</div>
+                    </div>
+                    <div class="any">
+                        <label for="any">any of these words:</label>
+                        <input type="text" id="any" name="as_oq">
+                        <div class="info">Type OR between all the words you want: miniature OR standard</div>
+                    </div>
+                    <div class="none">
+                        <label for="none">none of these words:</label>
+                        <input type="text" id="none" name="as_eq">
+                        <div class="info">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                    </div>
+
+                    <input type="hidden" name="as_nlo">
+                    <input type="hidden" name="as_nhi">
+                    <input type="hidden" name="lr">
+                    <input type="hidden" name="cr">
+                    <input type="hidden" name="as_qdr" value="all">
+                    <input type="hidden" name="as_sitesearch">
+                    <input type="hidden" name="as_occt" value="any">
+                    <input type="hidden" name="safe" value="images">
+                    <input type="hidden" name="as_filetype">
+                    <input type="hidden" name="tbs">
+
+                    <div class="btn">
+                        <input type="submit" value="Advanced Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+    </head>
+    <link rel="stylesheet" href="static/style.css">
+
+    <body>
+        <nav>
+            <a href="image.html">Image Search</a>
+            <a href="advanced.html">Advanced Search</a>
+        </nav>
+        <div class="container">
+            <div>
+
+                <div class="logo">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                </div>
+                <div class="form">
+                    <form id="main" action="https://google.com/search">
+                        <div class="format-search">
+                            <div class="round-left"></div>
+                            <div class="search">
+                                <input type="text" name="q">
+                            </div>
+                            <div class="round-right"></div>
+                        </div>
+    
+                        <div class="btn">
+                            <input class="search-btn" name="btnG" type="submit" value="Google Search">
+                            <!-- https://www.google.com/search?q=harvard&btnG=Google+Search
+                            since the parameter is btnG and the value is Google search so the resulted url will br this -->
+                            <input class="lucky-btn" name="btnI" type="submit" value="I'm Feeling Lucky">
+                            <!-- will directly go to the first result of the search
+                            since the parameter is btnI and the value is I'm Feeling Lucky so the resulted url will be
+                            https://www.google.com/search?q=harvard&btnI=I'm_Feeling_Lucky which ny default will be redirected to the first search result-->
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            
+        </div>
+    </body>
+</html>
